@@ -1,0 +1,23 @@
+<package name="HP Aruba Switch">
+<sysoidMask>.1.3.6.1.4.1.11.2.3.7.11.140</sysoidMask>
+        <assetField name="modelNumber" formatString="${systemModelNumber}">
+                <mibObjs>
+                        <mibObj oid=".1.3.6.1.2.1.47.1.1.1.1.2.1" alias="systemModelNumber"/>
+                </mibObjs>
+        </assetField>
+        <assetField name="description" formatString="${systemModelNumber}">
+                <mibObjs>
+                        <mibObj oid=".1.3.6.1.2.1.47.1.1.1.1.2.1" alias="systemModelNumber"/>
+                </mibObjs>
+        </assetField>
+        <assetField name="serialNumber" formatString="${systemSerialNumber}">
+                <mibObjs>
+                        <mibObj oid=".1.3.6.1.2.1.47.1.1.1.1.11.1" alias="systemSerialNumber"/>
+                </mibObjs>
+        </assetField>
+        <assetField name="operatingSystem" formatString="${systemVersion}">
+                <mibObjs>
+                        <mibObj oid=".1.3.6.1.2.1.47.1.1.1.1.10.1" alias="systemVersion"/>
+                </mibObjs>
+        </assetField>
+</package>
